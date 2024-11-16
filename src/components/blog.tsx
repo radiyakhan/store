@@ -2,6 +2,9 @@ import Image from 'next/image'
 import React from 'react'
 import { FaArrowRightLong } from 'react-icons/fa6'
 import { FiEye, FiMessageCircle } from 'react-icons/fi'
+import img2 from "../../pics/pic3.jpg"
+import img3 from "../../pics/pic6.jpg"
+import img4 from "../../pics/pic7.jpg"
 
 const Blog = () => {
   return (
@@ -14,7 +17,7 @@ const Blog = () => {
     <div className="flex flex-wrap -m-4">
       <div className="p-4 md:w-1/4  ml-2 lg:ml-20">
         <div className="h-full border-2 border-red-200 border-opacity-50 rounded-lg overflow-hidden">
-          <Image alt='blog' src={require('../../pics/pic3.jpg')}/>
+          <Image alt='blog' src={img2}/>
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-red-400 mb-1">
               CATEGORY
@@ -42,7 +45,7 @@ const Blog = () => {
 
       <div className="p-4 md:w-1/4 ml-2 lg:ml-20">
         <div className="h-full border-2 border-red-200 border-opacity-60 rounded-lg overflow-hidden ">
-        <Image alt='blog' src={require('../../pics/pic6.jpg')}/>
+        <Image alt='blog' src={img3}/>
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-red-400 mb-1">
               CATEGORY
@@ -69,7 +72,7 @@ const Blog = () => {
 
       <div className="p-4 md:w-1/4 ml-2 lg:ml-20">
         <div className="h-full border-2 border-red-200 border-opacity-60 rounded-lg overflow-hidden">
-        <Image alt='blog' src={require('../../pics/pic7.jpg')}/>
+        <Image alt='blog' src={img4}/>
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-red-400 mb-1">
               CATEGORY
